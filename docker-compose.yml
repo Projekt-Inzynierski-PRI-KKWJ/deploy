@@ -1,0 +1,19 @@
+services:
+  core:
+    image: ghcr.io/projekt-inzynierski-pri-kkwj/core:latest
+    env_file:
+      - config.env
+    ports:
+      - "8080:8080"
+      - "5432:5432"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker-prod
+    restart: always
+
+  ui:
+    image: ghcr.io/projekt-inzynierski-pri-kkwj/ui-no-ssl:latest
+    env_file:
+      - config.env
+    ports:
+      - "80:80"
+    restart: always

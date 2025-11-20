@@ -34,3 +34,4 @@ build/
 .vscode/
 
 config.env
+other docker file/
