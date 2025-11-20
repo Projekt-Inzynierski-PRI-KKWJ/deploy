@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  core:
+    image: ghcr.io/system-pri/pri-core:latest
+    env_file:
+      - config.env
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker-dev
+      JWT_SECRET: ${JWT_SECRET}
+  ui:
+    image: ghcr.io/system-pri/pri-ui-no-ssl:latest
+    ports:
+      - "80:80"
