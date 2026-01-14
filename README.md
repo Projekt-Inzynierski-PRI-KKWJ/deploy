@@ -9,10 +9,10 @@
 
 1. Create folder where you want to store the application and name it e.g. PRI.
 2. Inside your folder create 3 new folders and name them UI, core and deploy.
-3. Clone all 3 git repositories into respective folers.
-4. In deploy folder, copy the config.env.example form "deloy/support files" into deploy folder and delete the ".example" form name of the file.
+3. Clone all 3 git repositories into respective folders.
+4. In deploy folder, copy the config.env.example from "deploy/support files" into deploy folder and delete the ".example" form name of the file.
 5. Provide all secrets given in the file e.g.:
-   POSTGRES_URL=jdbc:postgresql://host.docker.internal:5432/  📢 IMPORTANT!: Host docker internal when you deploy database outside of docker!
+   POSTGRES_URL=jdbc:postgresql://host.docker.internal:5432/  📢 IMPORTANT!: Host docker internal when you deploy database outside of docker on Windows! On Linux it requires to add parameter `extra_hosts` in `docker-compose.yml`
    POSTGRES_USER=YourPostgresUser
    POSTGRES_PASSWORD=YourPostgresPassword
    POSTGRES_DB=NameOfYourDatabase
@@ -30,10 +30,24 @@
    FF_LDAP_AUTHENTICATION_ENABLED=false
    SCHEDULED_JOBS_ENABLED=false
 6. Run docker engine.
-7. Open console in deploy and type:
+7. Open console in deploy folder and type:
+
    ```
    docker compose up -d
    ```
+
+   It will run the file `docker-compose.yml` and download the build docker images of frontend and backend that are build after each commit to main branch.
+   (📢 IMPORTANT!: It requires github actions CI-pipline to be configured. For that go to other resources like Google, Youtube, Chatbots ect.)
+
+   📢 IMPORTANT!: Downloading images from ghcr.io (GitHub Actions) requires Authentication!
+
+   `image: ghcr.io/projekt-inzynierski-pri-kkwj/ui-no-ssl:latest`
+
+   `image: ghcr.io/projekt-inzynierski-pri-kkwj/core:latest`
+
+   📢 IMPORTANT!: The `:latest`  will always download the newest modified conteiner.
+
+   📢 IMPORTANT!: Change the links in the `docker-compose.yml` to links pointing to your repsoitory.
 8. Wait till images are downloaded from github actions and deployed localy.
 9. When images are deployed go to the project site in your browser.
 10. First site that should open is initialization page for coordinator/admin of the system. ( If you run the project locally with mock users, use the exact logins specified in "core\pri-application\src\main\resources\ldap-mock-data.ldif" next to "uid:", name and last name specified next to "cn:", "sn:" values. uid=indexNumber. )
@@ -46,7 +60,6 @@
 📢 IMPORTANT!: If you want images with your changes to be build on github you need to configure GitHub actions (CI pipline). For how to do that, go to other resoureces like e.g.: Google, Youtube, Chatbots etc.
 
 📢 IMPORTANT!: For lunching frontend and backend separatly go to specific README.md file in respective repositories.
-
 
 ## Feature flags
 
@@ -98,7 +111,7 @@ docker compose -f docker-compose.yml --env-file ${path} up --build
 To restart the application without Docker images rebuild use command:
 
 ```
-docker compose -f docker-compose-.yml --env-file ${path} up`
+docker compose -f docker-compose.yml --env-file ${path} up`
 ```
 
 `${path}` path to the config.env file (e.g. `--env-file config.env`)
