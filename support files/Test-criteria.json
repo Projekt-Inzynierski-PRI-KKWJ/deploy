@@ -1,0 +1,1315 @@
+{
+    "studyYear": "FULL_TIME#2023",
+    "minPointsThresholdFirstSemester": 0.83,
+    "minPointsThresholdSecondSemester": 0.75,
+    "criteriaSections": [
+        {
+            "idFirstSemester": 1,
+            "idSecondSemester": 2,
+            "name": "Dokumentacja",
+            "isDefenseSection": false,
+            "criteriaSectionGradeWeightFirstSemester": 0.2,
+            "criteriaSectionGradeWeightSecondSemester": 0.1,
+            "criteriaGroups": [
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 5,
+                    "name": "Dokumentacja dla klienta/grupy docelowej/użytkownika",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.03,
+                    "criteria": [
+                        {
+                            "id": 13,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dokumentacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 14,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "trywialna dokumentacja nie wnosząca dodatkowej wiedzy o systemie",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 15,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "brak dokumentacji, jeśli takie było wymaganie projektowe/dokumentacja tego typu jest zbędna (wymaga uzasadnienia); poprawna dokumentacja nieprzedstawiona klientowi/grupie docelowej (np. plik PDF na stronie projektu)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 16,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "poprawnie zredagowana i użyteczna dokumentacja przekazana klientowi/grupie docelowej systemu; dokumentacja w postaci samouczka (np. w grach komputerowych) lub strony w sklepie Play dla aplikacji mobilnych",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 6,
+                    "name": "Dokumentacja deweloperska",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.03,
+                    "criteria": [
+                        {
+                            "id": 17,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dokumentacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 18,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "trywialna dokumentacja nie wnosząca dodatkowej wiedzy o systemie; dokumentacja dotyczy tylko jednej warstwy systemu (np. frontend) \nProjekty open source spełniające to kryterium otrzymują 0 punktów",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 19,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "dokumentacja użyteczna; obejmuje wszystkie warstwy jednak niekompletna (nie wyjaśnia wszystkich zasobów niezbędnych do rozpoczęcia pracy z projektem, jednak osoba z doświadczeniem w danej technologii jest wstanie to zrobić). \nProjekty open source spełniające to kryterium otrzymują 1 punkt",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 20,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "kompletna dokumentacja deweloperska określająca wszystkie zasoby niezbędne do rozpoczęcia pracy nad projektem. \nDokumentacja powinna być wystarczająca do przekazania projektu następnemu zespołowi w celu jego kontynuacji",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 2,
+                    "idSecondSemester": null,
+                    "name": "Dokument wymagań projektowych I*",
+                    "gradeWeightFirstSemester": 0.08,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 5,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dokumentu, dokument niezgodny z szablonem; brak wymagań funkcjonalnych; brak kryteriów akceptacji projektu na oba semestry",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 6,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak weryfikowalnych kryteriów akceptacji projektu na jeden z semestrów; dokument nie zawiera wszystkich wymaganych informacji; przedstawione informacje są błędne/nieprawdziwe; dokument nie odzwierciedla aktualnego stanu projektu; zadeklarowany zakres projektu jest zbyt mały; kryteria akceptacji są nie weryfikowalne; wskażniki wdrożeniowe są niemierzalne.",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 7,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "dokument zaakceptowany przez prowadzącego; jeden aspekt dokumentu nie jest wystarczająco opisany; jedno kryterium akceptacji nie jest weryfikowalne; dokument w większości odzwierciedla aktualny stan projektu; zakres prac przewidziany na poszczególne semestry jest adekwatny",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 8,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "dokument poprawny; odzwierciedla aktualny stan projektu i pozwala na obiektywną ocene jego realizacji",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 3,
+                    "idSecondSemester": 7,
+                    "name": "Licencja, podział praw własności, zgodność z regulacjami",
+                    "gradeWeightFirstSemester": 0.04,
+                    "gradeWeightSecondSemester": 0.02,
+                    "criteria": [
+                        {
+                            "id": 21,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak określenia licencji lub udziału członków zespołu we własności projektu; brak zgodności z obowiązującymi regulacjami",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 22,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "prawa własności określone w sposób niewiążący lub nieadekwatny do projektu (np. umowa ustna); częściowy brak zgodności z obowiązujacymi regulacjami",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 23,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "poprawnie określone prawa własności i licencja na projekt; projekt nie przystaje jednak do dobrych praktych zalecanych dla wybranej licencji (np. projekt open source z nieczytelnym repozytorium lub bez dokumentacji deweloperskiej; projekt zamknięty bez informacji o licencjach użytych bibliotek); zgodność regulacjami",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 24,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "poprawnie i świadomie określone prawa własności; dołożono starań, aby zapewnić możliwie szeroki dostęp open source (jeśli dotyczy); licencja narzucona przez klienta nie jest krzywdząca dla zespołu; projekt spełnia dobre praktyki dla wybranej licencji",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 1,
+                    "idSecondSemester": null,
+                    "name": "Dokument wizji projektu *",
+                    "gradeWeightFirstSemester": 0.08,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 1,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dokumentu; dokument niezgodny z szablonem",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 2,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "dokument nie zawiera niektórych wymaganych informacji; przedstawione informacje są błędne/nieprawdziwe; dokument nie pozwala ocenić czy projekt ma sens i jest realizowalny; zespół nie potrafi uzasadnić przydatności projektu",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 3,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "jeden aspekt dokumentu nie jest wystarczająco opisany (np. projekt nie definiuje grupy docelowej/klienta)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 4,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "dokument poprawny",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 4,
+                    "name": "Dokument wymagań projektowych II*",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.02,
+                    "criteria": [
+                        {
+                            "id": 9,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dokumentu, dokument niezgodny z szablonem; brak wymagań funkcjonalnych; brak kryteriów akceptacji projektu na oba semestry",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 10,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak aktualizacji dokumentu po pierwszym semestrze",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 11,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "dokument zaakceptowany przez prowadzącego; jeden aspekt dokumentu nie jest wystarczająco opisany; jedno kryterium akceptacji nie jest weryfikowalne; dokument w większości odzwierciedla aktualny stan projektu; zakres prac przewidziany na poszczególne semestry jest adekwatny",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 12,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "dokument poprawny; odzwierciedla aktualny stan projektu i pozwala na obiektywną ocene jego realizacji",
+                            "isDisqualifying": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idFirstSemester": 5,
+            "idSecondSemester": 6,
+            "name": "Produkty projektu",
+            "isDefenseSection": false,
+            "criteriaSectionGradeWeightFirstSemester": 0.33,
+            "criteriaSectionGradeWeightSecondSemester": 0.35,
+            "criteriaGroups": [
+                {
+                    "idFirstSemester": 26,
+                    "idSecondSemester": null,
+                    "name": "Czy przygotowano prototyp projektu zgodnie ze sztuką? *",
+                    "gradeWeightFirstSemester": 0.04,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 93,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak prototypu; prototyp nieprzydatny, niezgodny ze specyfiką projektu, nieodpowiadający zaprezentowanemu projektowi",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 94,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "prototyp stworzony na własne potrzeby; częściowo wykorzystany przy tworzeniu docelowego interfejsu systemu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 95,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "prototyp adekwatny do projektu, skonsultowany z klientem/grupą docelową i wykorzystany przy tworzeniu docelowego interfejsu systemu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 96,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "prototyp iteracyjnie budowny i konsultowany z klientem/grupą docelową (przynajmniej 3 wersje); prototyp pełni istotną rolę w projektowaniu nowych funkcjonalności systemu",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 33,
+                    "name": "Czy przeprowadzono i udokumentowano testy, w tym testy: jednostkowe, integracyjne, akceptacyjne, obciążeniowe, funkcjonalne (kryterium nie obejmuje testów użyteczności) oraz statyczna analiza jakości kodu",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 97,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "nie przeprowadzono żadnych wiarygodnych testów; brak raportów z testów; testy jednostkowe z niskim pokryciem kodu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 98,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "przetestowano co najwyżej jeden obszar; przygotowane raporty z testów; przykładowo same testy jednostkowe lub same testy akceptacyjne",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 99,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "przetestowano trzy obszary; przygotowane raporty z testów; niektóre z przeprowadzonych testów nie były w pełni zautomatyzowane; przykładowo testy akceptacyjne, jednostowe oraz analiza statyczna jakości kodu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 100,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "przetestowano różnorodne obszary z wykorzystaniem mechanizmów automatyzacji testów; przygotowana pełna dokumentacja potestowa; przykładowo testy jednostkowe, akceptacyjne i obciążeniowe",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 31,
+                    "name": "Czy projekt został wdrożony?",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 85,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "projekt nie nadaje się do wdrożenia",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 86,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "projekt nie został wdrożony; nie spełniono przynajmniej jednego wskaźnika wdrożeniowego ",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 87,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt wdrożony bez sukcesu (brak rzeczywistych użytkowników); spełnienie wszystkich wskaźników wdrożeniowych; wartości niektórych wskaźników nie są obiektywnie weryfikowalne",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 88,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "projekt wdrożony z sukcesem (rzeczywiści użytkownicy); spełnienie wszystkich wskaźników wdrożeniowych; wartości wszystkich wskaźników są obiektywnie weryfikowalne",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 27,
+                    "idSecondSemester": 34,
+                    "name": "Dobór techologii i architektury systemu do rozwiązywanego problemu",
+                    "gradeWeightFirstSemester": 0.04,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 101,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak widocznej organizacji kodu; brak przemyślanej architektury systemu; wykorzystano technologie nie adekwatne do potrzeb projektu",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 102,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "architektura nieadekwatna do problemu; niestosowny dobór technologii i narzędzi; zespół nie jest w stanie uzasadnić podjętych decyzji technicznych; w projekcie znajdują się elementy nie znajdujące uzasadnienia w wymaganiach projektowych; koszty utrzymania projektu są nie adekwatne do docelowego obciażenia systemu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 103,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "architektura poprawna, lecz nieudokumentowana; popełniono pewne błędy w projektowaniu oprogramowania; wszystkie elementy projektu znajdują odzwierciedlenie w wymaganiach projektowych; częściowa analiza skalowalności i kosztochłonności opracowanego rozwiązania",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 104,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "architektura poprawna i udokumentowana; odpowiadająca docelowemu obciążeniu systemu; zespół przeprowadził analizę skalowalności oraz kosztów utrzymania systemu",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 23,
+                    "idSecondSemester": 30,
+                    "name": "Subkietywna ocena opiekuna projektu dotycząca realizacji wszystkich zakładanych funkcjonalności (ocenia prowadzący)?",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 77,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "spełniono wszystkie wymagane i oczekiwane kryteria akceptacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 78,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brakuje istotnych funkcjonalności",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 79,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "zrealizowano wszystkie kluczowe funkcjonalności, oraz przynajmniej 85% pozostałych",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 80,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "zrealizowano wszystkie założone funkcjonalności",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 25,
+                    "idSecondSemester": 32,
+                    "name": "Czy projekt jest użyteczny dla grupy docelowej; Czy spełnia kryteria użyteczności i został przetestowany pod tym kątem?",
+                    "gradeWeightFirstSemester": 0.02,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 89,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "system nie przydatny dla grupy docelowej; brak użyteczności interfejsu oraz jej testów",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 90,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "niska przydatność dla grupy docelowej; brak użyteczności interfejsu stwierdzona na obronie mimo przeprowadzenia testów przez zespół; średnia użyteczność interfejsu i brak testów użyteczności",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 91,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "dobra użyteczność systemu przy braku testów; interfejs zgodny z przyjętymi standardami",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 92,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "dobra użyteczność lub wiarygodne testy użyteczności (w tym raporty z testów); projekt rozwiązuje rzeczywiste problemy grupy docelowej",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 24,
+                    "idSecondSemester": null,
+                    "name": "Czy projekt dobrze rokuje?",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 81,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "zespół nie potrafi uzasadnić przydatności projektu; zespół projektowy nie daje gwarancji realizacji kluczowych części projektu w czasie trwania przedmiotu; projekt nie daje możliwości zaliczenia PRI",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 82,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "istnieją uzasadnione obawy co do tego, czy projekt ma szanse zostać zrealizowany; kierunek rozwoju projektu nie odpowiada oczekiwaniom i wymaganiom przedmiotu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 83,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt spełnia wymagania przedmiotu, jest możliwe jego zrealizowanie w czasie trwania zajeć i zespoł posiada niezbędne kompetencje; projekt nie rokuje na rozwój po zakończeniu zajęć",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 84,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "projekt rokuje na dalszy rozwój po zakończeniu przedmiotu; zespół jest gwarantem zakończenia projektu w czasie",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 22,
+                    "idSecondSemester": 29,
+                    "name": "Spełnienie kryteriów akceptacji *",
+                    "gradeWeightFirstSemester": 0.08,
+                    "gradeWeightSecondSemester": 0.08,
+                    "criteria": [
+                        {
+                            "id": 73,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "niespełniono przynajmniej jednego wymaganego kryterium akceptacji",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 74,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "spełniono wszystkie wymagane kryteria akceptacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 75,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "spełniono wszystkie wymagane oraz większość oczekiwanych kryteriów akceptacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 76,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "spełniono wszystkie wymagane i oczekiwane kryteria akceptacji",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 21,
+                    "idSecondSemester": 28,
+                    "name": "Czy złożoność produktu projektu odpowiada wielkości zespołu? Czy jakość produktu odpowiada wielkości zespołu *",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 69,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "projekt mało złożony zarówno technicznie, jak i funkcjonalnie; projekt mogłaby zrealizować jedna osoba w ciągu trwania przedmiotu; niska jakość produktu projektu pomimo jego małego rozmiaru",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 70,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "projekt mało złożony zarówno technicznie, jak i funkcjonalnie, ale akceptowalny dla zespołu mniejszego o jedną osobę; projekt zbyt rozbudowany jak na projekt inżynierski (niewykonalny); projekt za 3 punkty ale niskiej jakości",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 71,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt mało złożony funkcjonalnie względem rozmiaru grupy, ale obejmuje kilka różnych platform/warstw (przynajmniej 1 na osobę); projekt za 1 punkt ale wysokiej jakości; projekt za 4 punty ale niskiej jakości",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 72,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "złożoność odpowiednia dla zespołu; projekt za 3 punkty ale wysokiej jakości",
+                            "isDisqualifying": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idFirstSemester": 9,
+            "idSecondSemester": 10,
+            "name": "Produkty projektu podczas prezentacji",
+            "isDefenseSection": true,
+            "criteriaSectionGradeWeightFirstSemester": 0.02,
+            "criteriaSectionGradeWeightSecondSemester": 0.10,
+            "criteriaGroups": [
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 44,
+                    "name": "Dostęp do produktu projektu dla komisji do testów podczas prezentacji; Brak krytycznych błędów w tym: bezpieczeństwa oraz uniemożliwiających korzystanie z systemu",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 129,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dostępu do systemu dla komisji; istotne uchybienia w zakresie bezpieczeństwa (np. brak kontroli dostępu, niezgodne ze sztuką zabezpieczenie haseł, SQL Injection); błędy uniemożliwiające korzystanie z systemu (kluczowa funkcjonalność systemu nie działa)",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 130,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak walidacji danych; błędy istotnie utrudniające korzystanie z systemu (np. brak responsywności systemu); brak HTTPS (jeśli dotyczy); dostęp tylko na urządzeniach zapewnionych przez zespół (jeśli takie ograniczenie nie wynika z charakteru projektu)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 131,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "system nie jest odporny na ataki złośliwego użytkownika; występuje okresowa nieresponsywność systemu;",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 132,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "brak wykrytych błędów krytycznych",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 45,
+                    "name": "Dostęp do produktu projektu dla komisji do testów przed prezentacją",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 137,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dostępu/system nie działa u członków komisji; system nie był dostępny przez cały czas testów",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 138,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "zapewniono dostęp do systemu; komisja wykryła istotne błędy w systemie",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 139,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "brak istotnych błędów wykrytych przez komisję; zapewnienie dostępu do systemu nie jest możliwe (np: projekt obejmuje urządzenie fizyczne; zgoda wymaga akceptacji komisji)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 140,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "brak błędów wykrytych przez komisję; wysoka responsywność oraz dostępnosć systemu;",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 43,
+                    "idSecondSemester": null,
+                    "name": "Dostęp do produktu projektu dla komisji do testów podczas prezentacji",
+                    "gradeWeightFirstSemester": 0.02,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 125,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak dostępu/system nie działa u członków komisji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 126,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "zapewniono dostęp do systemu; komisja wykryła krytyczne błędy w systemie",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 127,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "dostęp na urządzeniach zapewnionych przez zespół;",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 128,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "dostęp na urządzeniach zapewnionych przez zespół; brak istotnych błędów wykrytych przez komisję",
+                            "isDisqualifying": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idFirstSemester": 3,
+            "idSecondSemester": 4,
+            "name": "Praca grupy w semestrze",
+            "isDefenseSection": false,
+            "criteriaSectionGradeWeightFirstSemester": 0.30,
+            "criteriaSectionGradeWeightSecondSemester": 0.30,
+            "criteriaGroups": [
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 15,
+                    "name": "Podział prac w semestrze II*",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 33,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "w zespole istnieją osoby nie prowadzące prac programistycznych",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 34,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "przynajmniej jedna osoba w zespole nie wypracowała liczby godzin przewidzianej w siatkach godzin",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 35,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "jedna osoba w zespole ma wyraźnie większy wkład w projekt, ale wszyscy spełniają minimalne kryteria; zespół nie jest wstanie wykazać równomiernego obciążenia pracą wszystkich członków zespołu \nI semestr: w zespole istnieją osoby nie prowadzące prac programistycznych",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 36,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "wkład wszystkich członków zespołu jest porównywalny i jest to widoczne w systemie kontroli wersji lub w systemie zarządzania zadaniami",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 11,
+                    "idSecondSemester": null,
+                    "name": "Zarządzanie ryzykiem; zakresem projektu; zmianami składu zespołu; adaptacja zespołu do potrzeb klienta/projektu/przedmiotu I",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 45,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak śledzenia zmian w zakresie projektu (np. na koniec listopada zespół nagle odkrywa, że zrealizował 15% wymagań projektowych); brak porozumienia w zespole odnośnie prac nad projektem (np. członek zespołu odmawia dalszej pracy, gdyż w jego opini inni nic nie robią); zły podział kompencji w projekcie; złe zarządzanie czasem (np. osoby od backendu nic nie robią bo czekają na frontend);",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 46,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak kontroli podziału prac w zespole w tym odrzucanie członków zespołu dopiero na miesiac przed obroną projektu; drastyczne korekty kryteriów akceptacji lub wskaźników wdrożeniowych dopiero na miesiąc przed obroną projektu; istotne przestoje w realizacji projektu wywołane złą organizacja pracy (np. oczekiwanie na implementacje backendu przez konkretną osobą); brak zarządzania zakresem systemu, jego uszczegółowiania i adaptacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 47,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "zespół próbuje reagować z wyprzedzeniem na zmiany i nowe ryzyka; zmiany składu zespołu mają istotny wpływ na realizację projektu, jednak nie zagrażają jego sukcesowi; w ciągu  miesiąca poprzedzającego obronę projektu nie było istotnych zmian w zakresie/składzie zespołu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 48,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "zespół elastycznie reaguje na zmiany i nowe ryzyka, w kontakcie z klientem oraz prowadzącym dokonuje istotnych zmian w zakresie projektu w celu dostarczenia optymalnego rozwiązania; zespół kończy semestr w oryginalnym składzie lub zmiany składu nie miały istotnego wpływu na realizację projektu",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 17,
+                    "name": "Zarządzanie ryzykiem; zakresem projektu; zmianami składu zespołu; adaptacja zespołu do potrzeb klienta/projektu/przedmiotu II",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 49,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak śledzenia zmian w zakresie projektu (np. na koniec listopada zespół nagle odkrywa, że zrealizował 15% wymagań projektowych); brak porozumienia w zespole odnośnie prac nad projektem (np. członek zespołu odmawia dalszej pracy, gdyż w jego opini inni nic nie robią); zły podział kompencji w projekcie; złe zarządzanie czasem (np. osoby od backendu nic nie robią bo czekają na frontend); ",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 50,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak kontroli podziału prac w zespole w tym odrzucanie członków zespołu dopiero na miesiac przed obroną projektu; drastyczne korekty kryteriów akceptacji lub wskaźników wdrożeniowych dopiero na miesiąc przed obroną projektu; istotne przestoje w realizacji projektu wywołane złą organizacja pracy (np. oczekiwanie na implementacje backendu przez konkretną osobą); brak zarządzania zakresem systemu, jego uszczegółowiania i adaptacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 51,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "zespół próbuje reagować z wyprzedzeniem na zmiany i nowe ryzyka; zmiany składu zespołu mają istotny wpływ na realizację projektu, jednak nie zagrażają jego sukcesowi; w ciągu  miesiąca poprzedzającego obronę projektu nie było istotnych zmian w zakresie/składzie zespołu; zespół za zgodą opiekuna przyjął nowego członka i dołączył go do projektu na zasadzie podwykonawcy (niezależnie od spełnienia innych kryteriów)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 52,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "zespół elastycznie reaguje na zmiany i nowe ryzyka, w kontakcie z klientem oraz prowadzącym dokonuje istotnych zmian w zakresie projektu w celu dostarczenia optymalnego rozwiązania; zespół kończy semestr w oryginalnym składzie lub zmiany składu nie miały istotnego wpływu na realizację projektu; zespół za zgodą opiekuna przyjął nowego członka i skutecznie wdrożył go do pracy w projekcie (niezależnie od spełnienia innych kryteriów)",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 20,
+                    "name": "Automatyzacja procesów (DevOps)",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.03,
+                    "criteria": [
+                        {
+                            "id": 65,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak automatyzacji procesów w projekcie; system wydany/wdrożony tylko na potrzeby prezentacji lub wcale",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 66,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak automatyzacji procesów w projekcie; więcej niż jedno wydanie w semestrze",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 67,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "regularne wydania/wdrożenia, tylko część procesów jest zautomatyzowana (np. kontenery Docker dla poszczególnych części systemu, jednak brak skryptu budującego całość; skrypt budujący całość ale przetestowany tylko w jednym przykładowym środowisku)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 68,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "projekt realizowany zgodnie z modelem DevOps: ciągła integracja, regularne wydania, automatyzacja wdrożenia; większość powtarzalnych procesów zautomatyzowana",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 19,
+                    "name": "Zarządzanie kodem źródłowym II*",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 61,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "korzystanie z repozytorium z jednego konta; repozytorium założone później niż miesiąc przed obroną; mniej niż 10 komitów w historii; brak komitów przynajmniej jednego członka zespołu",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 62,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "część zespołu korzysta z repozytorium kodu; kod w repozytorium nie odzwierciedla aktualnego stanu projektu (np. wkład różnych członków zespołu znajduje się tylko na osobnych branchach). Projekty open source spełniające to kryterium otrzymują 0 punktów i nie mogą podejść do obrony",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 63,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "regularność pracy i równomierne rozłożenie commitów pomiędzy członków zespołu oraz w czasie; zawsze istnieje działająca wersja systemu w repozytorium. Projekty open source spełniające to kryterium otrzymują 1 punkt",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 64,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "regularność pracy i równomierne rozłożenie commitów pomiędzy członków zespołu oraz w czasie; korzystanie z code review; rozsądne zarządzanie branchami (lub pochodnymi); zespół jest w stanie przedstawić wiarygodne wykresy przedstawiające ilość commitów w czasie dla całego projektu i per osoba",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 12,
+                    "idSecondSemester": 18,
+                    "name": "Metodyka pracy i narzędzia ją wspierające *",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 53,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak metodyki; realizacja metodyki zawieszana okresowo; nie wszystkie osoby w zespole podporządkowują się metodyce; brak narzędzi wspierających (np. Jira); przyjęta metodyka nie jest iteracyjna (np. Waterfall)",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 54,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "przyjęta metodyka nie została poprawnie zdefiniowana lub nie ma cech z manifestu Agile; zespół pracuje częściowo w wybranej metodyce; dobrane narzędzia wspierające są nieadekwatne; brak regularnych spotkań zespołu; brak regularnych przyrostów/wydań;",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 55,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "zespół pracuje zgodnie z metodyką, realizując jej najważniejsze założenia; wykorzystanie narzędzi wspierających jest tylko częściowe i nie pozwala na zarządzanie całością prac w projekcie",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 56,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "wybrana metodyka pracy wspierana przez narzędzia informatyczne pozwala na:\n- skuteczną kontrolę systematyczności i stanu wykonania zadań w projekcie (wymagane: backlog, tablica Agile oraz wykres skumulowany realizacji projektu); \n- śledzenie zmian w projekcie (wymagana historia wymagań oraz realizacji backlogu)\n- kontrolę nakładu pracy na wykonanie zadań projektowych (np. śledzenie czasu, story pointów lub równoważne)\n- planowanie i harmonogramowanie prac (wymagane: śledzenie przestojów, zakresu obowiązków i obciążenia poszczególnych osób) \n- kontrolę jakości tworzonego rozwiązania (np. wdrożenie procesu peer review lub QA)",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 10,
+                    "idSecondSemester": null,
+                    "name": "Kontakt z klientem/grupą docelową, testy w grupie docelowej I",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 37,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak klienta; brak określonej grupy docelowej",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 38,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak regularnego kontaktu z klientem/grupą docelową (rzadziej niż raz w miesiącu); brak efektów współpracy z klientem (notatek, uwag, błędów, zmian w zakresie) pomimo spotkań",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 39,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt realizowany we współpracy z klientem/grupą docelową (minimum raz w miesiącu); klient zaangażowany w odbiory kolejnych wersji systemu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 40,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "klient/grupa docelowa aktywnie zaangażowana w odbiory wersji systemu, określenie wymagań oraz rozwój oprogramowania; ciągły kontakt z klientem",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 8,
+                    "idSecondSemester": 14,
+                    "name": "Systematyczność pracy w semestrze",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.05,
+                    "criteria": [
+                        {
+                            "id": 25,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "projekt zrealizowano w krótkim czasie poprzedzającym obronę (1 miesiąc); zespół nie uczestniczył w ponad 1/3 spotkań z opiekunem",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 26,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "projekt realizowano tylko przed kamieniami milowymi (prace conajmniej na przestrzeni 2 miesięcy);",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 27,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt realizowany był przez cały semestr z różną równomiernością; w każdym miesiącu powstała nowa wersja programowania; zespół uczestniczył w wszystkich ustalonych spotkaniach z opiekunem",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 28,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "projekt był realizowany równomiernie przez cały semestr; wszystkie etapy projektu zrealizowane w terminie",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 16,
+                    "name": "Kontakt z klientem/grupą docelową, testy w grupie docelowej II",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.03,
+                    "criteria": [
+                        {
+                            "id": 41,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "kontakt z klientem tylko w I semestrze",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 42,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "klient otrzymał system do testów pierwszy raz póżniej niż miesiąc przed obroną projektu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 43,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "klient/grupa docelowa używała przynajmniej 1 wersji systemu udostępnionej przynajmniej miesiąc przed obroną projektu",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 44,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "klient dokonał odbioru oraz testów conajmniej dwóch wersji systemu na miesiąc przed obrona projektu",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 9,
+                    "idSecondSemester": null,
+                    "name": "Podział prac w semestrze I",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 29,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "tylko jedna osoba w zespole wypracowała liczbę godzin przewidzianą w siatce godzin; w zespole istnieją osoby które nie uczestniczyły w ponad 1/3 spotkań z opiekunem",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 30,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "przynajmniej jedna osoba w zespole nie wypracowała liczby godzin przewidzianej w siatkach godzin",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 31,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "jedna osoba w zespole ma wyraźnie większy wkład w projekt, ale wszyscy spełniają minimalne kryteria; zespół nie jest wstanie wykazać równomiernego obciążenia pracą wszystkich członków zespołu \nI semestr: w zespole istnieją osoby nie prowadzące prac programistycznych",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 32,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "wkład wszystkich członków zespołu jest porównywalny i jest to widoczne w systemie kontroli wersji lub w systemie zarządzania zadaniami",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 13,
+                    "idSecondSemester": null,
+                    "name": "Zarządzanie kodem źródłowym I*",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 57,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak repozytorium kodu; wymiana kodu poza repozytorium (np. przez email);",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 58,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "część zespołu korzysta z repozytorium kodu; kod w repozytorium nie odzwierciedla aktualnego stanu projektu (np. wkład różnych członków zespołu znajduje się tylko na osobnych branchach). Projekty open source spełniające to kryterium otrzymują 0 punktów i nie mogą podejść do obrony",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 59,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "regularność pracy i równomierne rozłożenie commitów pomiędzy członków zespołu oraz w czasie; zawsze istnieje działająca wersja systemu w repozytorium. Projekty open source spełniające to kryterium otrzymują 1 punkt",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 60,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "regularność pracy i równomierne rozłożenie commitów pomiędzy członków zespołu oraz w czasie; korzystanie z code review; rozsądne zarządzanie branchami (lub pochodnymi); zespół jest w stanie przedstawić wiarygodne wykresy przedstawiające ilość commitów w czasie dla całego projektu i per osoba",
+                            "isDisqualifying": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idFirstSemester": 7,
+            "idSecondSemester": 8,
+            "name": "Prezentacja",
+            "isDefenseSection": true,
+            "criteriaSectionGradeWeightFirstSemester": 0.15,
+            "criteriaSectionGradeWeightSecondSemester": 0.15,
+            "criteriaGroups": [
+                {
+                    "idFirstSemester": 35,
+                    "idSecondSemester": 39,
+                    "name": "Czy prezentacja (omówienie projektu i jego demonstracja) była przeprowadzona zgodnie ze sztuką? Czy prezentacja zawierała wszystkie wymagane treści (cel i założenia projektowe, podział prac na semestry, przegląd zrealizowanych funkcjonalności, architektura i użyte technologie, role osób w zespole, demo systemu)?",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 105,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak prezentacji; niezgłoszona nieobecność członków zespołu; spóźnienie uniemożliwiające przeprowadzenie prezentacji; brak prezentacji; prezentacja zakończona przez komisję (z powodu innego niż przekroczenie czasu); zespół w sposób lekceważący podszedł do prezentacji/komisji (np. próba oszustwa)",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 106,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "brak demo systemu; brakuje jednej z wymaganych treści; zespół prezentował w sposób nieprofesjonalny, prezentacja była nieczytelna lub nie zmieściła się w widełkach 75-110% czasu; język prezentacji był nieadekwatny/niezrozumiały; brak płynności prezentacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 107,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "jedna z treści niedostatecznie zaprezentowana; prezentacja zgodna ze sztuką; zajmująca 75-110% czasu; demonstracja systemu stanowi istotną część prezentacji",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 108,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "wszystkie treści zaprezentowane poprawnie; prezentacja zgodna ze sztuką, angażująca i dostosowana do odbiorców, forma prezentacji dopasowana do prezentowanych treści",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 38,
+                    "idSecondSemester": 42,
+                    "name": "Odpowiedzi na pytania komisji (oceniane podczas obrony semestralnej)",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.03,
+                    "criteria": [
+                        {
+                            "id": 121,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "zespół nie był w stanie udzielić żadnej wiarygodnej odpowiedzi na >1 pytanie",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 122,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "zespół nie był wstanie udzielić wiarygodnej odpowiedzi na 1 pytanie",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 123,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "odpowiedzi na niektóre pytania były niewyczerpujące, ale zdowalające",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 124,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "zespół udzielił wyczerpującej odpowiedzi na wszystkie pytania",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 36,
+                    "idSecondSemester": 40,
+                    "name": "Utrwalenie efektów projektu",
+                    "gradeWeightFirstSemester": 0.00,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 109,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak utrwalenia efektów projektu",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 110,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "projekt oraz dokumentacja przekazana opiekunowi projektu w formie surowej bez opracowania dodatkowych materiałów promocyjnych",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 111,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "projekt przekazany opiekunowi; opracowanie materiałów promocyjnych pozwalających na skuteczne promowanie projektu w przyszłości przez Wydział",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 112,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "kryteria na 3 punkty oraz jedno z: 1) prezentacja projektu na Dniu Inżyniera lub podobnym wydarzeniu popularyzatorskim; 2) przygotowanie wideo promocyjnego prezentującego całość projektu",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": 37,
+                    "idSecondSemester": null,
+                    "name": "Demonstracja systemu I*",
+                    "gradeWeightFirstSemester": 0.05,
+                    "gradeWeightSecondSemester": 0.0,
+                    "criteria": [
+                        {
+                            "id": 113,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "brak demonstracji",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 114,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "demonstracja niespójna; brak przygotowania odpowiednich danych do prezentacji; brak planu prezentacji. Prezentacja kodu niezbędna w celu wyjaśnienia jej działania",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 115,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "demonstracja poprawna;  brak elastyczności demonstracji (w tym brak możliwości szybkiego przejścia w aplikacji do określonego stanu. Demonstracja ze środowiska deweloperskiego",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 116,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "demonstracja poprawna ze środowiska zbliżonego do docelowego; odpowiednio przygotowane dane do prezentacji; dobrze określony scenariusz prezentacji; brak zbędnych przestojów w demonstracji;",
+                            "isDisqualifying": false
+                        }
+                    ]
+                },
+                {
+                    "idFirstSemester": null,
+                    "idSecondSemester": 41,
+                    "name": "Demonstracja systemu II*",
+                    "gradeWeightFirstSemester": 0.0,
+                    "gradeWeightSecondSemester": 0.04,
+                    "criteria": [
+                        {
+                            "id": 117,
+                            "category": "CRITERION_NOT_MET",
+                            "points": 0,
+                            "description": "prezentacja ze środowiska deweloperskiego (w tym na emulatorze telefonu); prezentacja nie zintegrowanego oprogramowania",
+                            "isDisqualifying": true
+                        },
+                        {
+                            "id": 118,
+                            "category": "UNSUCCESSFUL_ATTEMPT_TO_MEET_THE_CRITERION",
+                            "points": 1,
+                            "description": "demonstracja niespójna; brak przygotowania odpowiednich danych do prezentacji; brak planu prezentacji; demonstracja w środowisku istotnie różnym niż docelowe (np. aplikacja instalowana poprzez IDE na telefonie)",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 119,
+                            "category": "CRITERION_MET_WITH_RESERVATIONS",
+                            "points": 3,
+                            "description": "demonstracja poprawna;  brak elastyczności demonstracji (w tym brak możliwości szybkiego przejścia w aplikacji do określonego stanu); demonstracja ze środowiska zbliżonego do docelowego",
+                            "isDisqualifying": false
+                        },
+                        {
+                            "id": 120,
+                            "category": "CRITERION_MET",
+                            "points": 4,
+                            "description": "demonstracja poprawna ze środowiska zbliżonego do docelowego; odpowiednio przygotowane dane do prezentacji; dobrze określony scenariusz prezentacji; brak zbędnych przestojów w demonstracji;",
+                            "isDisqualifying": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
