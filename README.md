@@ -52,7 +52,7 @@
 9. When images are deployed go to the project site in your browser.
 10. First site that should open is initialization page for coordinator/admin of the system. ( If you run the project locally with mock users, use the exact logins specified in "core\pri-application\src\main\resources\ldap-mock-data.ldif" next to "uid:", name and last name specified next to "cn:", "sn:" values. uid=indexNumber. )
 11. After successfull initialization login site should appear, log in to coordinator account.
-12. When in the system, precced to data-feed tab to import supervisors, studnets and criteria in .csv files ( If  runing localy import Test-mock students, supervisors and criteria from the support files folder in deploy directory ).
+12. When in the system, precced to data-feed tab to import supervisors, studnets and criteria in .csv files ( If  runing localy for development, import Test-mock students, supervisors and criteria from the support files folder in deploy directory ).
 13. Before you will be able to add project you need to configure the supervisor availability in Project tab when clicking on Supervisor Availability button.
 
 📢 IMPORTANT!: Password for mock ldap accounts is: "Haslo123".
