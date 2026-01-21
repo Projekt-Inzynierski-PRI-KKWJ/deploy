@@ -12,7 +12,7 @@
 3. Clone all 3 git repositories into respective folders.
 4. In deploy folder, copy the config.env.example from "deploy/support files" into deploy folder and delete the ".example" form name of the file.
 5. Provide all secrets given in the file e.g.:
-   POSTGRES_URL=jdbc:postgresql://host.docker.internal:5432/  📢 IMPORTANT!: Host docker internal when you deploy database outside of docker on Windows! On Linux it requires to add parameter `extra_hosts` in `docker-compose.yml`
+   POSTGRES_URL=jdbc:postgresql://host.docker.internal:5432/  📢 IMPORTANT!: You use host.docker.internal when you deploy database outside of docker on Windows! On Linux it requires to add parameter `extra_hosts` in `docker-compose.yml`
    POSTGRES_USER=YourPostgresUser
    POSTGRES_PASSWORD=YourPostgresPassword
    POSTGRES_DB=NameOfYourDatabase
@@ -116,4 +116,4 @@ docker compose -f docker-compose.yml --env-file ${path} up`
 
 `${path}` path to the config.env file (e.g. `--env-file config.env`)
 
-📢 IMPORTANT!: To enable the automatic building of the images on github after each commit, you need to enable github actions (CI pipline). For that see other resources like Google, Youtube, Chatbots, etc.
+📢 IMPORTANT!: To enable the automatic building of the images on github after each commit, you need to enable github actions (CI pipline). Don't Forget to change the links in docker files and docker.compose.yml. For that see other resources like Google, Youtube, Chatbots, etc.
