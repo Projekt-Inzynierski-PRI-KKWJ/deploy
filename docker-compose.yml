@@ -1,6 +1,6 @@
 services:
   core:
-    image: ghcr.io/projekt-inzynierski-pri-kkwj/core:latest
+    image: ghcr.io/projekt-inzynierski-pri-kkwj/core:pri-2.0-final-release
     env_file:
       - config.env
     ports:
@@ -11,7 +11,7 @@ services:
     restart: always
 
   ui:
-    image: ghcr.io/projekt-inzynierski-pri-kkwj/ui:latest
+    image: ghcr.io/projekt-inzynierski-pri-kkwj/ui:pri-2.0-final-release
     env_file:
       - config.env
     ports:
